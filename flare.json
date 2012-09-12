@@ -1,0 +1,110 @@
+{
+ "name": "flare",
+ "children": [
+    {
+      "name": "empty", 
+      "children": 
+      [
+        {
+          "name": "empty",
+          "children":
+          [
+            {
+              "name": "empty",
+              "children":[],
+              "size": 2
+            },
+            {
+              "name": "freelance",
+              "size": 1.5
+            },
+            {
+              "name": "empty",
+              "size": 0.5
+            },
+            {
+              "name": "google",
+              "size": 24
+            }
+          ]
+        }
+      ],
+      "size": 28
+    },
+    {
+      "name": "empty", 
+      "children": [],
+      "size": 2
+    },
+    {
+      "name": "sva", 
+      "children": 
+      [
+        {
+          "name": "time",
+          "children":
+          [
+            {
+              "name": "empty",
+              "size": 10
+            },
+            {
+              "name": "transistor",
+              "size": 4
+            },
+            {
+              "name": "empty",
+              "size": 8
+            }
+          ],
+          "size": 22
+        }
+      ], 
+      "size": 22
+    },
+    {
+      "name": "empty", 
+      "children": [],
+      "size": 4
+    },
+    {
+      "name": "cornell",
+      "children":  
+      [
+        {
+          "name": "time",
+          "children":
+          [
+            {
+              "name": "empty",
+              "size": 8
+            },
+            {
+              "name": "peachpit",
+              "size": 4
+            },
+            {
+              "name": "empty",
+              "size": 20
+            },
+            {
+              "name": "ogilvy",
+              "size": 4
+            },
+            {
+              "name": "empty",
+              "size": 20
+            }
+          ],
+          "size": 56
+        }
+      ], 
+      "size": 56
+    },
+    {
+      "name": "empty", 
+      "children": [],
+      "size": 8
+    }
+  ]
+}
