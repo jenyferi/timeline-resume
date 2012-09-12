@@ -1,29 +1,30 @@
 {
- "name": "flare",
+ "key": "parent",
  "children": [
     {
-      "name": "empty", 
+      "key": "parent",
       "children": 
       [
         {
-          "name": "empty",
+          "key": "empty",
           "children":
           [
             {
-              "name": "empty",
-              "children":[],
+              "key": "empty",
               "size": 2
             },
             {
               "name": "freelance",
+              "key": "work",
               "size": 1.5
             },
             {
-              "name": "empty",
+              "key": "empty",
               "size": 0.5
             },
             {
               "name": "google",
+              "key": "work",
               "size": 24
             }
           ]
@@ -32,28 +33,29 @@
       "size": 28
     },
     {
-      "name": "empty", 
-      "children": [],
+      "key": "empty", 
       "size": 2
     },
     {
       "name": "sva", 
+      "key": "school",
       "children": 
       [
         {
-          "name": "time",
+          "key": "parent", 
           "children":
           [
             {
-              "name": "empty",
+              "key": "empty", 
               "size": 10
             },
             {
               "name": "transistor",
+              "key": "work",
               "size": 4
             },
             {
-              "name": "empty",
+              "key": "empty", 
               "size": 8
             }
           ],
@@ -63,36 +65,38 @@
       "size": 22
     },
     {
-      "name": "empty", 
-      "children": [],
+      "key": "empty", 
       "size": 4
     },
     {
       "name": "cornell",
+      "key": "school",
       "children":  
       [
         {
-          "name": "time",
+          "key": "parent", 
           "children":
           [
             {
-              "name": "empty",
+              "key": "empty", 
               "size": 8
             },
             {
               "name": "peachpit",
+              "key": "work",
               "size": 4
             },
             {
-              "name": "empty",
+              "key": "empty", 
               "size": 20
             },
             {
               "name": "ogilvy",
+              "key": "work",
               "size": 4
             },
             {
-              "name": "empty",
+              "key": "empty", 
               "size": 20
             }
           ],
@@ -102,8 +106,7 @@
       "size": 56
     },
     {
-      "name": "empty", 
-      "children": [],
+      "key": "empty", 
       "size": 8
     }
   ]

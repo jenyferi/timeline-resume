@@ -22,7 +22,7 @@ var arc = d3.svg.arc().startAngle(function(d) {
 d3.json("flare.json", function(json) {
 	var path = vis.data([json]).selectAll("path").data(partition.nodes).enter().append("path")
 	.attr("display", function(d) {
-		if (d.depth == 1 || d.depth == 0 || d.name == "empty"){
+		if (d.depth == 1 || d.depth == 0 || d.key == "empty"){
 			return "none"; // hide inner 2 rings
 		} //return d.depth ? null : "none";
 	}) 
@@ -48,7 +48,7 @@ d3.json("flare.json", function(json) {
     .attr("dx", "6") // margin
     .attr("dy", ".35em") // vertical-align
 	.text(function(d) { 
-    	if (d.name != "empty" && d.name != "flare" && d.name != "time"){
+    	if (d.name){
     		return d.name; 
     	}
     })
@@ -84,15 +84,15 @@ d3.json("flare.json", function(json) {
 });
 
 function getcolor(d){
-	var parent = d.parent.name;
-	var node = d.name;
+	var parent = d.parent;
+	var node = d;
 
 	//SCHOOLS
-	if (parent == "sva" || node == "sva" || parent == "cornell" || node == "cornell"){
+	if (parent.key == "school" || node.key == "school"){
 		return d3.rgb("#8b796d");
 	}
 	//WORK
-	else if (node == "transistor" || node == "google" || node == "peachpit" || node == "ogilvy" || node == "freelance"){
+	else if (node.key == "work"){
 		return d3.rgb("#d95377");
 	}
 }
