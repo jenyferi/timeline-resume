@@ -1,0 +1,113 @@
+{
+ "key": "parent",
+ "children": [
+    {
+      "key": "parent",
+      "children": 
+      [
+        {
+          "key": "empty",
+          "children":
+          [
+            {
+              "key": "empty",
+              "size": 2
+            },
+            {
+              "name": "freelance",
+              "key": "work",
+              "size": 1.5
+            },
+            {
+              "key": "empty",
+              "size": 0.5
+            },
+            {
+              "name": "google",
+              "key": "work",
+              "size": 24
+            }
+          ]
+        }
+      ],
+      "size": 28
+    },
+    {
+      "key": "empty", 
+      "size": 2
+    },
+    {
+      "name": "sva", 
+      "key": "school",
+      "children": 
+      [
+        {
+          "key": "parent", 
+          "children":
+          [
+            {
+              "key": "empty", 
+              "size": 10
+            },
+            {
+              "name": "transistor",
+              "key": "work",
+              "size": 4
+            },
+            {
+              "key": "empty", 
+              "size": 8
+            }
+          ],
+          "size": 22
+        }
+      ], 
+      "size": 22
+    },
+    {
+      "key": "empty", 
+      "size": 4
+    },
+    {
+      "name": "cornell",
+      "key": "school",
+      "children":  
+      [
+        {
+          "key": "parent", 
+          "children":
+          [
+            {
+              "key": "empty", 
+              "size": 8
+            },
+            {
+              "name": "peachpit",
+              "key": "work",
+              "size": 4
+            },
+            {
+              "key": "empty", 
+              "size": 20
+            },
+            {
+              "name": "ogilvy",
+              "key": "work",
+              "size": 4
+            },
+            {
+              "key": "empty", 
+              "size": 20
+            }
+          ],
+          "size": 56
+        }
+      ], 
+      "size": 56
+    },
+    {
+      "key": "empty", 
+      "size": 8
+    }
+  ]
+}
